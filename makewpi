@@ -1,0 +1,12 @@
+# Rules for make the WarpIN archive for WarpIN Tools.
+# All lines started with '#' or ' ' (blank space) are ignored by 'makewpi.cmd'.
+# All commentaries must start in the first character of the line.
+
+# The first non-ignored line must be the name of the WPI archive.
+
+iven031w.wpi
+
+# The following non-ignored lines are the parameters.
+-a
+1 inview.exe inview.txt
+-s inview.wis

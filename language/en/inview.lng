@@ -1,0 +1,19 @@
+/* English language: Salvador Parra Camacho */
+_Install            = " Installing Intelligent View in your system.",
+                      " Do you want continue?"
+_Error_installing   = " An error has ocurred installing Intelligent View!"
+_Installed          = " Intelligent View successfully installed."
+_Uninstall          = " Un-installing Intelligent View.",
+                      " Do you want continue?"
+_Error_uninstalling = " An error has ocurred un-installing Intelligent View!"
+_Uninstalled        = " Intelligent View successfully un-installed."
+_Help               = "Commandline options:",
+                      crlf||" /V shows the version",
+                      crlf||" /I installs the program",
+                      crlf||" /U uninstalls the program",
+                      crlf||" /S creates a shadow in the Desktop",
+                      crlf||" /? shows this help"
+_Shadowing          = " Creating a shadow of your View object in your",
+                      " Desktop. Do you want continue?"
+_Error_shadowing    = " An error has ocurred creating shadow!"
+_Shadowed           = " Shadow successfully created."

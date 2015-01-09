@@ -1,0 +1,32 @@
+<WARPIN>
+<HEAD>
+<PCK INDEX=1
+	PACKAGEID="Salvador Parra Camacho\Intelligent View\Main Package\0\3\1\0"
+	TITLE="Intelligent View Main Package"
+	TARGET="?:\OS2"
+	KILLPROCESS="inview.exe"
+	EXECUTE="$(1)\inview.exe /I"
+	BASE
+	SELECT
+>Intelligent View Main Package</PCK>
+</GROUP>
+</HEAD>
+
+<BODY>
+<PAGE INDEX=1 TYPE=README>
+<TEXT>
+Intelligent View
+</TEXT>
+<README
+EXTRACTFROMPCK="1">inview.txt</README>
+</PAGE>
+
+<PAGE INDEX=2 TYPE=CONTAINER>
+<NEXTBUTTON TARGET="0">I~nstall</NEXTBUTTON>
+<TEXT>
+Press "Install" button to install.
+</TEXT>
+</PAGE>
+
+</BODY>
+</WARPIN>

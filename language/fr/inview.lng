@@ -1,0 +1,17 @@
+/* French language: Benoit Bouchonneau */
+_Install            = " Installation d'Intelligent View. Voulez-vous continuer?"
+_Error_installing   = " Erreur dans l'installation d'Intelligent View!"
+_Installed          = " Intelligent View install‚ avec succŠs."
+_Uninstall          = " D‚sinstallation d'Intelligent View. Voulez-vous continuer?"
+_Error_uninstalling = " Erreur dans la d‚sinstallation d'Intelligent View!"
+_Uninstalled        = " Intelligent View d‚sinstaller avec succŠs."
+_Help               = "ParamŠtres d'utilisation:",
+                      crlf||" /V Afficher la version du programme",
+                      crlf||" /I Installer le programme",
+                      crlf||" /U D‚sinstaller le programme",
+                      crlf||" /S Cr‚er un lien dans le Bureau",
+                      crlf||" /? Afficher l'aide"
+_Shadowing          = " Cr‚ation d'un lien avec l'objet View dans",
+                      " votre Bureau. Voulez-vous continuer?"
+_Error_shadowing    = " Erreur dans la cr‚ation du lien!"
+_Shadowed           = " Lien cr‚‚ avec succŠs."

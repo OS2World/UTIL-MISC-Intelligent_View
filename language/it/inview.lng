@@ -1,0 +1,17 @@
+/* Italian language: Salvatore Musina */
+_Install            = " Installando Intelligent View. Vuole continuare?"
+_Error_installing   = " C'Š stato un errore installando Intelligent View!"
+_Installed          = " Intelligent View installato con succeso."
+_Uninstall          = " Desinstallando Intelligent View. Vuole continuare?"
+_Error_uninstalling = " C'Š stato un errore desinstallando Intelligent View!"
+_Uninstalled        = " Intelligent View desinstallato con succeso."
+_Help               = "Opzioni di commando:",
+                      crlf||" /V vedere la versione",
+                      crlf||" /I installa il programma",
+                      crlf||" /U desinstalla il programma",
+                      crlf||" /S crea un'ombra en el Desktop",
+                      crlf||" /? vedere quest'aiuta"
+_Shadowing          = " Creando un'ombra del suo oggetto View nel suo",
+                      " Desktop. Vuole continuare?"
+_Error_shadowing    = " C'Š stato un errore creando l'ombra!"
+_Shadowed           = " Ombra creata con succeso."

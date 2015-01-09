@@ -1,0 +1,67 @@
+
+Intelligent View
+================
+
+- About.
+
+	Files with *.INF filter are usually associated with a program object called
+View and located in the Nowhere directory. It's easy to associate this program
+object with *.HLP files also. But INF and HLP extensions are not only for the
+online OS/2 help files, but also for the Windows installation (INF) and help
+(HLP) files and even other applications (TEDIT.HLP, the help file of the OS/2
+Tiny EDITor is a plain text file).
+	The existing association methods in OS/2 WPS (standard and XWP) decides
+which application opens the file looking which defined filter matches. That
+means ALL HLP (OS/2 help files, Windows help files and others) and INF (OS/2
+INF files, Windows installation files and others) files are opened with View.
+But View can only recognize OS/2 files.
+
+	Intelligent View can substitute View in the WPS to solve this little
+"problem".
+
+	Intelligent View scans the contents of the file and decides the
+application:
+
+	- OS/2 INF files are opened with 'view.exe' (the standard IBM or Aaron
+	Lawrence's NewView used as replacement).
+	- OS/2 HLP files are opened with 'view.exe' (it's posible that this doesn't
+	work in versions of OS/2 previous to Warp 4).
+	- Windows INF files are opened with 'e.exe'.
+	- Windows HLP files are opened with:
+		'pe.exe winhlp32.exe' if ODIN and the Win32 help viewer are present or
+		'winhelp.exe', the Win-OS2 help viewer.
+	- Unknown files are opened with 'e.exe'.
+
+	You can also use Intelligent View with any file manager.
+
+- Commandline options.
+
+	/V shows the version
+	/I installs the program
+	/U uninstalls the program
+	/S creates a shadow of View in the Desktop
+	/? shows the help
+
+- Installation.
+
+	Intelligent View searchs the language files in %ULSPATH% and then in the
+"language" subdirectory of the program directory.
+
+	Intelligent View searchs the configuration files ('inview.cfg') in %ETC%,
+then in %HOME% and when none of them exist, in the program directory.
+
+	Use the commandline options.
+
+	NOTE: A WarpIN version is not distributed due to a WarpIN 0.1.0 bug
+resolving the DEEXECUTE atribute when it has parameters. For example:
+	DEEXECUTE="$(1)\inview.exe /U"
+
+- License.
+
+	Freeware. (The source code is distributed in a separated archive.)
+
+- Author.
+
+	Salvador Parra Camacho
+	x3265340 at fedro (dot) ugr dot es
+	http://www.os2world.com/spc

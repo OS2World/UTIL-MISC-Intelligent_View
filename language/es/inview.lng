@@ -1,0 +1,17 @@
+/* Spanish language: Salvador Parra Camacho */
+_Install            = " Instalando Intelligent View. ¨Desea continuar?"
+_Error_installing   = " ­Ha ocurrido un error instalando Intelligent View!"
+_Installed          = " Intelligent View instalado con ‚xito."
+_Uninstall          = " Desinstalando Intelligent View. ¨Desea continuar?"
+_Error_uninstalling = " ­Ha ocurrido un error desinstalando Intelligent View!"
+_Uninstalled        = " Intelligent View desinstalado con ‚xito."
+_Help               = "Opciones de l¡nea de comandos:",
+                      crlf||" /V muestra la versi¢n",
+                      crlf||" /I instala el programa",
+                      crlf||" /U desinstala el programa",
+                      crlf||" /S crea una sombra en el Escritorio",
+                      crlf||" /? muestra esta ayuda"
+_Shadowing          = " Creando una sombra de su objeto View en su",
+                      " Escritorio. ¨Desea continuar?"
+_Error_shadowing    = " ­Ha ocurrido un error creando la sombra!"
+_Shadowed           = " Sombra creada con ‚xito."
